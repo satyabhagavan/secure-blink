@@ -1,0 +1,54 @@
+.technologies
+{
+    align-items: center;
+    margin: 25px;
+    text-align: center;
+}
+.technologies h2
+{
+    padding-left: 15px;
+}
+.technologies .logo
+{
+    background-color: white;
+    border: rgb(0,156,255) solid;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+    margin:15px;
+
+}
+.technologies .logo:hover
+{
+    background-color: rgb(0,156,255) !important;
+    color: white !important;
+    border: white;
+    transition: 1s;
+}
+p
+{
+    margin: 20px;
+}
+.technologies ul
+{
+    text-decoration: none;
+    list-style-type: none !important;
+    display: inline;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 15px;
+    border-radius: 15px;
+    overflow: hidden;
+    -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+	box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+}
+ul li
+{
+    margin-top: -30px;
+    display: inline-block;
+    margin-bottom: 30px;
+    padding: 10px;
+}
