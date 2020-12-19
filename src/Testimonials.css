@@ -1,0 +1,27 @@
+.leftOfpage, .rightOfpage
+{
+    height: 90vh;
+    width: 100%;
+    margin: 40px;
+}
+.leftOfpage
+{
+    background: #0E77FF 0% 0% no-repeat padding-box;
+    width: 80%;
+}
+.leftOfpage .leftimage
+{
+    height: 500px;
+    width: 500px;
+    padding-top: 12px;
+    text-align: center;
+    align-items: center;
+    border: white solid;
+    background-color: white;
+    border-radius: 50%;
+    margin: 50px;
+}
+.rightOfpage
+{
+    margin-top: 20%;
+}

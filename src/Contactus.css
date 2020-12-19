@@ -1,0 +1,14 @@
+.leftside, .rightside
+{
+    height: 100vh;
+    width: 100%;
+}
+
+.leftside
+{
+    margin-left: -10%;
+}
+.leftside img
+{
+    width: 90%;
+}

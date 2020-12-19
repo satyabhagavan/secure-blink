@@ -3,7 +3,11 @@ import { Button, Nav, Navbar, NavbarBrand, NavLink } from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Technologies from './Technologies';
 import CaseStudies from './CaseStudies';
-
+import Aboutus from'./Aboutus';
+import Contactus from './Contactus';
+import WorkFlow from './workFlow';
+import OurServices from './ourServices';
+import Testimonials from './Testimonials';
 function App() {
   return (
     <>
@@ -28,14 +32,28 @@ function App() {
       <h2>Web Development</h2>
       <h2>by SB</h2>
   </div>
+  <div className="AboutUs">
+    <Aboutus />
+  </div>
+  <div className="ourServices">
+    <OurServices />
+  </div>
+  <div className="workFlow">
+    <WorkFlow />
+  </div>
   <div className="technologies">
     <h2>Core Technologies</h2>
     <Technologies />
   </div>
+  <div className="belovedCustomers">
+    <Testimonials />
+  </div>
   <div className="CaseStudies">
     <CaseStudies />
   </div>
-
+  <div className="Contactus">
+    <Contactus />
+  </div>
       </>
   );
 }

@@ -1,0 +1,18 @@
+.sideImage
+{
+    background-color: white;
+}
+.sideImage img
+{
+    display: inline-block !important;
+    width: 80%;
+    overflow: hidden;
+    margin-left: -45%;
+    margin-top: -5%;
+    z-index: -500;
+}
+.sideImage .aboutusText
+{
+    margin-left: 50%;
+    margin-top: -45%;
+}

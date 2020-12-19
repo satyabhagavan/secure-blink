@@ -41,6 +41,7 @@ p
     padding: 15px;
     border-radius: 15px;
     overflow: hidden;
+    box-shadow:  40px 60px #0E77FF26;
     -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
 	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
 	box-shadow:0 0 10px rgba(0, 0, 0, 0.5);

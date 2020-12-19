@@ -35,6 +35,8 @@ function CaseStudies() {
                 <Button varient="primary">Read More</Button>
             </Card>
             </CardDeck>
+
+            <a href="./">View All</a>
         </div>
     )
 }
