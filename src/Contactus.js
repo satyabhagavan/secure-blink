@@ -6,7 +6,7 @@ import ContactForm from './Form';
 function Contactus() {
     return (
         <>
-        <div className="row no-gutters">
+        <div className="row no-gutters Contactus">
             <div className="col">
                 <div className="leftside">
                 <img src={ManwithComputer} alt="Manwithcomputer" />
